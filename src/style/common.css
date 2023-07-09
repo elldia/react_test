@@ -1,0 +1,60 @@
+header, main, footer {
+    width:600px; margin:0 auto;
+}
+header #langFrm {
+    margin:30px 0 0;
+    float:right;
+}
+header #langFrm select {
+    font-size:0.875rem; padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+header h1 {text-align:center; clear:both; padding:50px 0;}
+header h1 img {width:155px;}
+
+main {}
+main #loginFrm {
+    border:1px solid #ccc;
+    border-radius:10px;
+    padding:30px;
+}
+main #loginFrm fieldset {
+    display:flex; flex-flow:column wrap;
+}
+main #loginFrm fieldset input[type^=t],
+main #loginFrm fieldset input[type^=p] {
+    border:1px solid #ccc;
+    padding:20px;
+}
+main #loginFrm fieldset input[type^=t] {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main #loginFrm fieldset input[type^=p] {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top:0;
+}
+main #loginFrm fieldset input[type^=c] {
+    margin:10px 0;
+}
+main #loginFrm fieldset #loginBtn {
+    background:#03c75a; color:#fff;
+    padding:20px 0; border-radius:10px;
+}
+main .id_pw_search {text-align:center; margin:20px 0 0;}
+main .id_pw_search a {margin-right:10px;}
+main .id_pw_search a:last-child {margin-right:0;}
+main .adver {margin-top:30px;}
+main .adver img {width:100%;}
+footer {margin-top:80px; text-align:center;}
+footer .fnb {margin:0 0 20px;}
+footer .fnb a {
+    font-size:0.875rem;
+    margin-right:10px;
+}
+footer .fnb a:last-child {margin-right:0;}
+footer address {}
+footer address img {width:70px;}
+footer address span {}
